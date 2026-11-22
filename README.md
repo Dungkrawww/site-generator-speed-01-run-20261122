@@ -12,7 +12,7 @@ A faster drop-in for make.fun's own makefun-site 1.0.0: it answers exactly as ma
 ## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_INPUT_DIR=./practice/input MAKEFUN_OUTPUT_DIR=out node main.ts
+mkdir -p /tmp/site-out && MAKEFUN_INPUT_DIR=<kit>/practice/input MAKEFUN_OUTPUT_DIR=/tmp/site-out node main.ts
 ```
 
 ---
